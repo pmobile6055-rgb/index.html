@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Studio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="logo">STUDIO<span>®</span></a>
+
+  <button class="menu-toggle" aria-label="Open menu">
+    <span></span>
+    <span></span>
+  </button>
+
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="work.html">Work</a>
+    <a href="process.html">Process</a>
+    <a href="contact.html" class="nav-contact active">Let's Talk ↗</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="contact-hero">
+  <div class="contact-decoration">✦</div>
+
+  <p class="eyebrow">/ 04 — CONTACT</p>
+
+  <h1>
+    LET'S MAKE<br>
+    <span>IT HAPPEN.</span>
+  </h1>
+
+  <p>
+    มี project อยู่ในใจแล้วหรือยัง?
+    ส่งรายละเอียดมาให้เราได้เลย
+  </p>
+</section>
+
+<section class="contact-section section">
+
+  <form class="contact-form" id="contactForm">
+
+    <div class="form-row">
+      <label>
+        NAME
+        <input type="text" name="name" placeholder="Your name" required>
+      </label>
+
+      <label>
+        EMAIL
+        <input type="email" name="email" placeholder="you@email.com" required>
+      </label>
+    </div>
+
+    <label>
+      PROJECT TYPE
+      <select name="project">
+        <option>Web Design</option>
+        <option>Front-End Development</option>
+        <option>Brand / Creative</option>
+        <option>Other</option>
+      </select>
+    </label>
+
+    <label>
+      TELL US ABOUT IT
+      <textarea name="message" rows="6" placeholder="Tell us a little about your project..." required></textarea>
+    </label>
+
+    <button type="submit" class="submit-button">
+      SEND MESSAGE <span>↗</span>
+    </button>
+
+    <p class="form-message" id="formMessage"></p>
+
+  </form>
+
+  <aside class="contact-info">
+    <div>
+      <span>EMAIL</span>
+      <a href="mailto:hello@studio.com">hello@studio.com</a>
+    </div>
+
+    <div>
+      <span>LOCATION</span>
+      <p>Bangkok, Thailand</p>
+    </div>
+
+    <div>
+      <span>SOCIAL</span>
+      <a href="#">Instagram ↗</a>
+      <a href="#">Behance ↗</a>
+    </div>
+  </aside>
+
+</section>
+
+</main>
+
+<footer class="footer">
+  <div>
+    <a href="index.html" class="logo">STUDIO<span>®</span></a>
+    <p>Creative ideas for digital experiences.</p>
+  </div>
+
+  <div class="footer-copy">© 2026 Studio Creative Agency</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
